@@ -1,0 +1,48 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    .blog-title h2::before {
+    	left: 46.6%;
+    }
+    .blog-title h2::after {
+    	left: 48.6%;
+    }
+    .blog-meta {
+    	font-size: 11px;
+    }
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .blog-title h2::before {
+    	left: 46%;
+    }
+    .box-blog {
+    	margin-bottom: 15px;
+    }
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+
+    .box-blog {
+    	margin-bottom: 15px;
+    }
+
+
+	.blog-title h2::before {
+    left: 40%;
+
+	}
+	.blog-title h2::after {
+		left: 47.8%;
+	}
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+	.blog-title h2::before {
+	    left: 43%;
+
+		}
+
+
+}

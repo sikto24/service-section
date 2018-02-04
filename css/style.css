@@ -1,0 +1,146 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+/*=========start latset area========*/
+.section-padding {
+    padding: 80px 0px;
+}
+.blog-title h2 {
+    font-weight: 700;
+    padding-bottom:25px;
+    color: #232323;
+    font-size: 32px;
+    text-transform: capitalize;
+    position: relative;
+}
+.blog-title h2::before {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 2px;
+    background-color: #fe9013;
+    bottom: 10px;
+    left: 47%;
+}
+.blog-title h2::after {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 2px;
+    background-color: #000;
+    bottom: 10px;
+    left: 48.8%;
+}
+}
+.blog-title p {
+    font-size: 14px;
+    color: #505050;
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+
+.box-blog {
+    border: 1px solid #e9e9e9;
+}
+
+.box-blog:hover {
+    border: 1px solid #fa8b15;
+    transition: all .5s;
+}
+
+.box-blog .blog-box-btn {
+    border-bottom: none;
+}
+.box-blog .blog-box-btn {
+  background-repeat: no-repeat;
+  background-position:center center;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  padding-bottom: 35px;
+  border: 1px solid #fe9013;
+}
+
+.box-img-1 {
+    background-image: url(../img/Wall_E-wallpaper-10882350.jpg);
+}
+.box-img-2 {
+    background-image: url(../img/Water_Galaxy-wallpaper-10874985.jpg);
+}
+.box-img-3 {
+    background-image: url(../img/Yamaha_R6-wallpaper-10876863.jpg);
+}
+
+.blog-area {
+    padding: 20px;
+}
+ .blog-meta a {
+    color: #898989;
+    text-transform: capitalize;
+}
+
+.blog-meta span {
+    margin-right: 25px;
+}
+
+.blog-meta a i {
+    color:#ff8f17;
+    padding-right: 10px;
+}
+
+.blog-area h4 {
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #272727;
+    padding: 15px 0px;
+}
+
+.blog-area p {
+    color: #515151;
+    font-size: 14px;
+}
+
+.blog-area .read-more-btn {
+    margin: 20px 0px;
+    display: inline-block;
+    background-color: #ff8f17;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+.blog-area .read-more-btn:hover {
+    color: #fff;
+    background-color: #2da8ff;
+    transition: all .3s ease-in-out;
+}
